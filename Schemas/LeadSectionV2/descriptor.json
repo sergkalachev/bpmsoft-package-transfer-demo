@@ -1,0 +1,15 @@
+﻿{
+  "Descriptor": {
+    "UId": "0c0c867d-185d-4fa0-863d-c188cfb959c7",
+    "Name": "LeadSectionV2",
+    "ModifiedOnUtc": "\/Date(1784226769000)\/",
+    "Parent": {
+      "UId": "11939bd1-a5b4-4f3f-9f89-3bd0baad06e9",
+      "Name": "LeadSectionV2"
+    },
+    "ExtendParent": true,
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Схема раздела: \"Лиды\"",
+    "DependsOn": []
+  }
+}
