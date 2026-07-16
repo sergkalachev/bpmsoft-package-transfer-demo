@@ -42,18 +42,22 @@ define("LeadPageV2", [], function() {
 				"index": 8
 			},
 			{
-				"operation": "merge",
-				"name": "NeedInfoTab",
+				"operation": "insert",
+				"name": "STRING83fea339-ad6d-4b5e-832c-6b63841ed63e",
 				"values": {
-					"order": 3
-				}
-			},
-			{
-				"operation": "merge",
-				"name": "LeadEngagementTab",
-				"values": {
-					"order": 4
-				}
+					"layout": {
+						"colSpan": 11,
+						"rowSpan": 1,
+						"column": 0,
+						"row": 5,
+						"layoutName": "LeadPageRegisterInfoBlock"
+					},
+					"bindTo": "UsrGitDemoField2",
+					"enabled": true
+				},
+				"parentName": "LeadPageRegisterInfoBlock",
+				"propertyName": "items",
+				"index": 9
 			},
 			{
 				"operation": "merge",
@@ -96,13 +100,6 @@ define("LeadPageV2", [], function() {
 				"name": "DealSpecificsTab",
 				"values": {
 					"order": 5
-				}
-			},
-			{
-				"operation": "merge",
-				"name": "HistoryTab",
-				"values": {
-					"order": 7
 				}
 			},
 			{
@@ -164,7 +161,7 @@ define("LeadPageV2", [], function() {
 				"name": "Account",
 				"parentName": "LeadPageRegisterInfoBlock",
 				"propertyName": "items",
-				"index": 0
+				"index": 1
 			},
 			{
 				"operation": "move",
@@ -179,6 +176,13 @@ define("LeadPageV2", [], function() {
 				"parentName": "LeadPageRegisterInfoBlock",
 				"propertyName": "items",
 				"index": 6
+			},
+			{
+				"operation": "move",
+				"name": "SalesOwner",
+				"parentName": "LeadPageDealInformationBlock",
+				"propertyName": "items",
+				"index": 4
 			}
 		]/**SCHEMA_DIFF*/
 	};
