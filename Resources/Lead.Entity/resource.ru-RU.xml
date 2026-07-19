@@ -2,7 +2,7 @@
 <Resources Culture="ru-RU">
 	<Group Type="String">
 		<Items>
-			<Item Name="Columns.UsrGitDemoField2.Caption" Value="Git Demo Field 2" />
+			<Item Name="Columns.UsrGitDemoField2.Caption" Value="Git Walkthrough Field" />
 			<Item Name="Columns.UsrNewTextField.Caption" Value="New Text Field" />
 		</Items>
 	</Group>
